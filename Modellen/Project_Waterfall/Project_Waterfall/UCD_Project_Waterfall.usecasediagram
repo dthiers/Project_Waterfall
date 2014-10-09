@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="72c45d0c-800b-4f63-b319-89e88a6abe36" name="UCD_Project_Waterfall" linkedPackageId="b2cb0526-3e52-4d7e-a60a-c1b6bfd6f13b" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
-  <profileInstances>
-    <packageHasProfileInstances Id="22aa8a2c-cb45-49da-9226-eb28b7586f8d">
-      <profileInstance Id="d370a774-c516-464b-8bab-eae4be0276a1" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="e6bd7996-3340-4ecd-a8d1-6a241cc34f3c">
-      <profileInstance Id="00a65d52-c666-4883-8d95-2fa8f0363a75" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="36d7cf7d-9312-4701-8cab-bd03729967c8" name="Docent" isAbstract="false" isLeaf="false">
@@ -102,6 +88,12 @@
     </useCaseModelRootHasTypes>
     <useCaseModelRootHasTypes>
       <subsystem Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" name="BOB" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <ownedCommentsInternal>
+          <comment Id="0046017d-4879-4f98-914e-ddcd4c0453b9">
+            <elementDefinition Id="1199ed84-ba43-4b90-8a56-c0ce4a3f29b0" />
+            <body>Wat bauw is gemarkeerd in dit diagram moet nog gemaakt worden als BUC/PUC</body>
+          </comment>
+        </ownedCommentsInternal>
         <elementDefinition Id="8a23fc8c-15a1-46eb-bf30-963a3d581009" />
       </subsystem>
     </useCaseModelRootHasTypes>
@@ -390,5 +382,19 @@
   </packagedElements>
   <package Id="b2cb0526-3e52-4d7e-a60a-c1b6bfd6f13b" name="Project_Waterfall">
     <elementDefinition Id="5d8cbd4b-9c38-4843-814e-56cda981ad86" />
+    <profileInstances>
+      <packageHasProfileInstances Id="22aa8a2c-cb45-49da-9226-eb28b7586f8d">
+        <profileInstance Id="d370a774-c516-464b-8bab-eae4be0276a1" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="e6bd7996-3340-4ecd-a8d1-6a241cc34f3c">
+        <profileInstance Id="00a65d52-c666-4883-8d95-2fa8f0363a75" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </useCaseModelRoot>

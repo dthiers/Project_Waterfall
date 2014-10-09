@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UCD_Project_Waterfall">
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.375, 8.5" name="UCD_Project_Waterfall">
   <useCaseModelRootMoniker Id="72c45d0c-800b-4f63-b319-89e88a6abe36" />
   <nestedChildShapes>
     <actorShape Id="47121d96-7d4d-4ea2-bd61-71c3c50d60f8" absoluteBounds="1.375, 6.25, 0.5, 0.5" isReference="false" heightOffset="0">
@@ -31,9 +31,13 @@
       <relativeChildShapes />
     </actorShape>
     <ellipseShape Id="ed6e087c-77da-4393-ab43-c9f8e9d9f876" absoluteBounds="1.125, 7.125, 1, 1" outlineColor="83, 134, 191" outlineThickness="0.03125" />
-    <SubsystemShape Id="deaa12c3-baec-418d-af4b-6d9bb5bfeb45" absoluteBounds="2.5, 0.5, 7.5, 7.75" customColor="White">
+    <SubsystemShape Id="deaa12c3-baec-418d-af4b-6d9bb5bfeb45" absoluteBounds="2.5, 0.5, 8.625, 7.75" customColor="White">
       <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
       <nestedChildShapes>
+        <commentShape Id="c2fa1bb4-8c27-4f77-b19a-b7993c257664" absoluteBounds="8, 2.375, 2.625, 1.75" customColor="251, 247, 200">
+          <commentMoniker Id="0046017d-4879-4f98-914e-ddcd4c0453b9" />
+          <relativeChildShapes />
+        </commentShape>
         <useCaseShape Id="2cdcc874-d138-4345-b785-3384182c298e" absoluteBounds="6, 2.625, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
           <useCaseMoniker Id="515aaed5-a3ff-4738-87ae-9755962b52cb" LastKnownName="Informatie minor opvragen" />
           <relativeChildShapes />
@@ -104,7 +108,7 @@
         <useCaseShapeMoniker Id="f24b7c13-c99e-4b07-83c7-a41dcd3e6444" />
       </nodes>
     </useCaseAssociationConnector>
-    <includeConnector edgePoints="[(7.83920253167731 : 7.2506415525485); (7.01790236138971 : 1.52961867158787)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="Black" useCaseStereotype="«include»">
+    <includeConnector edgePoints="[(7.8242431559933 : 7.25129146436718); (6.6757568440067 : 1.62370853563282)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
       <includeMoniker Id="f8db7ec0-a0ec-44d3-87aa-978d607f4a54" />
       <relativeChildShapes />
       <nodes>

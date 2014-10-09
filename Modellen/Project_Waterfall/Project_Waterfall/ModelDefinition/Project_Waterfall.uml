@@ -3,6 +3,12 @@
   dslVersion="1.0.0.0"
   Id="5d8cbd4b-9c38-4843-814e-56cda981ad86"
   name="Project_Waterfall" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="1199ed84-ba43-4b90-8a56-c0ce4a3f29b0">
+      <body>Wat bauw is gemarkeerd in dit diagram moet nog gemaakt worden als BUC/PUC</body>
+    </comment>
+  </ownedCommentsInternal>
   <profileInstances>
     <packageHasProfileInstances
       Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
