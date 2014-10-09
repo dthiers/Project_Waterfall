@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="72c45d0c-800b-4f63-b319-89e88a6abe36" name="UCD_Project_Waterfall" linkedPackageId="b2cb0526-3e52-4d7e-a60a-c1b6bfd6f13b" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="72c45d0c-800b-4f63-b319-89e88a6abe36" name="UCD_Project_Waterfall" linkedPackageId="b2cb0526-3e52-4d7e-a60a-c1b6bfd6f13b" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
   <packagedElements>
     <useCaseModelRootHasTypes>
       <actor Id="36d7cf7d-9312-4701-8cab-bd03729967c8" name="Docent" isAbstract="false" isLeaf="false">
@@ -91,7 +91,8 @@
         <ownedCommentsInternal>
           <comment Id="0046017d-4879-4f98-914e-ddcd4c0453b9">
             <elementDefinition Id="1199ed84-ba43-4b90-8a56-c0ce4a3f29b0" />
-            <body>Wat bauw is gemarkeerd in dit diagram moet nog gemaakt worden als BUC/PUC</body>
+            <body>Wat bauw is gemarkeerd in dit diagram moet nog gemaakt worden als BUC/PUC
+Edit</body>
           </comment>
         </ownedCommentsInternal>
         <elementDefinition Id="8a23fc8c-15a1-46eb-bf30-963a3d581009" />
