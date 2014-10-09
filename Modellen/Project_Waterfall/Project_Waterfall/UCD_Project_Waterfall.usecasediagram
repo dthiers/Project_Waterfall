@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="72c45d0c-800b-4f63-b319-89e88a6abe36" name="UCD_Project_Waterfall" linkedPackageId="b2cb0526-3e52-4d7e-a60a-c1b6bfd6f13b" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="22aa8a2c-cb45-49da-9226-eb28b7586f8d">
+      <profileInstance Id="d370a774-c516-464b-8bab-eae4be0276a1" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e6bd7996-3340-4ecd-a8d1-6a241cc34f3c">
+      <profileInstance Id="00a65d52-c666-4883-8d95-2fa8f0363a75" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="36d7cf7d-9312-4701-8cab-bd03729967c8" name="Docent" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1bfe13cf-8f61-47ac-b26a-67930c550f3c" />
+        <targetEnds>
+          <association Id="88509564-51ab-4c95-bc0e-7396d4753156" isDerived="false" sourceEndRoleName="Docent" targetEndRoleName="Module toevoegen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a95307ed-513c-49e7-bdac-23c213b59668" LastKnownName="Module toevoegen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d40589a0-faa8-4fb3-b8ea-796ad7e44c71" name="Docent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="13145844-34e2-428f-a25e-c29b12cea2e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c8f4eb55-1b92-4384-b938-efa3147eae48" name="Module toevoegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7270e0a3-3f95-4186-b28f-4c5570758c91" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fac8f61a-308a-4327-a632-633951ba954e" />
+          </association>
+          <association Id="3b34965d-f54b-4846-a3bc-9d153fec2e0d" isDerived="false" sourceEndRoleName="Docent" targetEndRoleName="zoeken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0109703b-9779-47ea-90fb-a9ec763ca9f5" name="Docent" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="80253449-702f-426f-80ed-506c6f61e7b5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98d6f402-1edb-4e6d-9110-a9d38b4056ec" name="zoeken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3aa1a13b-72ee-410d-85f8-db06ff09acfb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1255a5f5-cfaf-4051-a48e-3dbc11f2ab8b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fea7a648-055c-4538-9f0b-f6d4dc7d4dab" name="Student" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="44ecefab-e54b-42b7-bde6-578178f31ba9" />
+        <targetEnds>
+          <association Id="37852d53-a36a-4eaa-8ff4-20c8e3c24981" isDerived="false" sourceEndRoleName="Student" targetEndRoleName="zoeken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48063636-e203-4fb1-bf10-59d80857d85f" name="Student" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="442c6dc8-69fd-4471-b7ad-d86e7668db07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0f704e43-e478-4702-96f5-d5c2f0baeb01" name="zoeken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b6db6c12-6a6a-450e-9711-d75dbd0ac2d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3e7e768c-70d2-4ff1-b8e0-b25691e7a880" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="0adc6e1a-28f9-45d8-b196-829559012518" name="Gast" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b74d7dd-2ad1-46fc-b940-558f0d3409cc" />
+        <targetEnds>
+          <association Id="aa58b9fa-66e2-47dd-b21c-e667d8cf07c9" isDerived="false" sourceEndRoleName="Gast" targetEndRoleName="zoeken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b59c186e-2be5-4386-9d4b-7ed9e58f87b5" name="Gast" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d369771e-c09d-49cc-ba5e-9c7123cd73e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d20d0bc-416a-421c-83a6-5f374bd464cb" name="zoeken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9096fd7c-9423-4351-b577-9edd8d7a8e42" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dcf52852-17ec-4270-8ba4-d4ad5fb218c4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" name="BOB" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8a23fc8c-15a1-46eb-bf30-963a3d581009" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="515aaed5-a3ff-4738-87ae-9755962b52cb" name="Informatie minor opvragen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="30de5049-3d7e-43c1-98a1-400641d60641" />
+        <generalsInternal>
+          <generalization Id="56105255-2f2d-4dff-a139-845de9198934" isSubstitutable="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="1ec565ac-2236-4352-b594-9d671c8fb161" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="be7eb9da-b312-47fd-8df2-ec63f42ebff2" name="Zoek module" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fc52f29c-c94f-403e-a572-a881263d75ab" />
+        <generalsInternal>
+          <generalization Id="f7008254-c747-4bf7-95b0-3d4044835c9e" isSubstitutable="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="de60c679-e993-4ecb-93b0-d8cbb47f4257" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="132b9d30-1d85-4afd-96d7-f8dd237700f5" name="Filter informatie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9af4a632-5f5d-48d3-9ad5-d473038574d4" />
+        <extendedCases>
+          <extend Id="185c5563-08d0-4d71-bc14-91e8410cd472">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="75ee22aa-dd20-4b83-ac02-73419ebdcee5" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="02265b5d-2fcb-4f46-a2c6-c8b442507b91" name="Zoek module op tag" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b22f210-353c-4420-8e0c-e200f0d5d278" />
+        <generalsInternal>
+          <generalization Id="b5cc0e25-169b-4ff5-b499-6de50142ba5d" isSubstitutable="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="5329d518-0648-4132-bcd7-5dd33327fc3f" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2e3aba6c-47da-419c-ba23-1243ab37688b" name="Zoek leerlijnen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="47bdea00-7114-4b0a-b56b-351af6f61e55" />
+        <generalsInternal>
+          <generalization Id="08e3f401-84b4-4c44-aec3-815b310d4729" isSubstitutable="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="010d5a1e-ee73-43ca-be16-4e0fad849a87" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e584fd04-6333-452a-89bd-121b433fa7e8" name="Zoek minor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="702fad18-580e-497e-8354-d68d98cf4c15" />
+        <generalsInternal>
+          <generalization Id="0982d8bc-e666-4e53-af35-a1d2c61b0f08" isSubstitutable="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="dd8da619-2b24-4af2-8a4f-7b80be3fb754" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2bf6e01c-f356-4640-8c39-ae83a70b6645" name="Zoek op thema" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b95130b0-cd74-4dab-b1c4-eca98f628b6b" />
+        <extendedCases>
+          <extend Id="1c2f8d33-f9eb-461c-b79b-af075784167a">
+            <useCaseMoniker Id="be7eb9da-b312-47fd-8df2-ec63f42ebff2" LastKnownName="Zoek module" />
+            <elementDefinition Id="b7c61877-9e85-4837-b4ef-a84b7f070c13" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7a6ae39d-7bbc-4d4c-adce-336605e21a7e" name="Zoek curriculum" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2ce3c5c7-6184-4007-a789-a15f3d89fa9d" />
+        <generalsInternal>
+          <generalization Id="cdcb4dcd-6c4d-490c-b5c6-7cfe5241697f" isSubstitutable="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <elementDefinition Id="232fc1a6-cb7e-4c16-8e41-1320b20c7ad1" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a95307ed-513c-49e7-bdac-23c213b59668" name="Module toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7d01a2fe-5eda-47ea-8444-c7db183e7d27" />
+        <additions>
+          <include Id="dfc38f01-7b20-4541-a718-6960e5db0abd">
+            <useCaseMoniker Id="daea35ab-e2c2-4350-9840-52f6fbd7a48f" LastKnownName="Inloggen" />
+            <elementDefinition Id="3eb24d11-f6c8-480b-baab-1ad878740cbf" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="81d8e627-3048-4d4b-aaa4-b357f20f9a3c" name="Modulebeschrijving bevriezen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b3516404-23a8-4202-a9f6-c7cf43bb42a2" />
+        <additions>
+          <include Id="1a698aaa-794c-44af-b231-7be250020e0d">
+            <useCaseMoniker Id="daea35ab-e2c2-4350-9840-52f6fbd7a48f" LastKnownName="Inloggen" />
+            <elementDefinition Id="a81da540-dac0-4261-a50c-44aff72e1ecb" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="5fd58c7d-b623-4c89-b67c-f75fcf2a6ebf" name="SLC'er" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="34600229-17f4-4972-b09a-4931b5a9b5c0" />
+        <targetEnds>
+          <association Id="a64ca318-3dc7-4ba1-b638-9640ae156eae" isDerived="false" sourceEndRoleName="SLC'er" targetEndRoleName="zoeken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cc0fb5a4-63bd-457a-b049-757c8ca34fc8" name="SLC'er" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a73e48a7-0395-42e0-8ff3-2f4e701798e3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a237e2a-9e30-4ed7-a6aa-f82ca4685929" name="zoeken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc66bfff-0ed2-49f8-9cc3-cbefc75636f7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="88d62f4c-cd6c-47e6-9780-a6355c9f1767" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e4547e1a-ac85-4f78-9e41-5d149c48b603" name="WAR" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f69956e4-d098-4107-8f42-7555a02564d1" />
+        <targetEnds>
+          <association Id="8a9be81f-0b4a-4955-9466-88d205f185a1" isDerived="false" sourceEndRoleName="WAR" targetEndRoleName="zoeken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9697aaa6-7e38-4d7f-8c2f-6d51bb7a27d7" name="WAR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="335ba9b4-47f9-4e23-99d5-7878c44fbe5a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08150d09-56ff-4f42-b604-f979d9c4c908" name="zoeken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e3a3a148-4569-418f-bf8a-89bdcf7ffb30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="959ce68e-a364-4c27-8e46-82c567f31d2a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f8a2968f-537b-47c3-baa6-86b775d2f08c" name="Doorstroomcoördinator" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="db3d323b-a914-4ce9-b2f8-193b8a7759bd" />
+        <targetEnds>
+          <association Id="d4b9a40c-6d4c-4477-8ac4-2ea232d04906" isDerived="false" sourceEndRoleName="Doorstroomcoördinator" targetEndRoleName="zoeken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bfb66848-3665-481b-8d3d-3cf26985a326" LastKnownName="zoeken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c6979865-5119-40f5-a065-3bafd579ab65" name="Doorstroomcoördinator" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="353508ba-f774-49c6-81c5-9eab4fac0855" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="710e0a13-53c2-45f4-873e-032462dace1d" name="zoeken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5d54a482-d833-4a9c-9fd2-227dbfcf7bba" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="26293698-c597-4440-9897-cc1dc2f04030" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8ad6f1c6-edd4-4cb0-84d6-f599c9fba7e9" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d0aa8379-7e1c-469c-b791-1368bd40171a" />
+        <targetEnds>
+          <association Id="412ad700-0aa3-4846-96f7-3d60a3941085" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Module aanpassen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0a094bea-9a7c-4575-ab9c-cfab4b09c3a0" LastKnownName="Module aanpassen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1c882f89-c683-4861-bf4f-b555871efeba" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c1b4abea-544d-4180-bb25-ec96097e52db" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="afd74d9d-549e-451c-be74-b3ab05df5ba3" name="Module aanpassen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aa1090c2-7bc6-49d2-8fb0-3d390baa94a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c2a5923b-4448-434b-bb97-76ff4904728e" />
+          </association>
+          <association Id="6522de3f-d86b-49dc-ab6d-53d1ed5e2659" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Modulebeschrijving bevriezen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="81d8e627-3048-4d4b-aaa4-b357f20f9a3c" LastKnownName="Modulebeschrijving bevriezen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="59696ef7-acf5-459d-bc2e-f6d99cad56e9" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7df2ea03-2681-4244-97c5-41ec07580eee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aac7cb1e-7e55-4851-ae8e-cb3116cdb466" name="Modulebeschrijving bevriezen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bb801059-fe6b-4449-85b3-609371916c1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dd0bedfd-0d4e-4756-bb29-a5d8e396d56c" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="0a094bea-9a7c-4575-ab9c-cfab4b09c3a0" name="Module aanpassen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bb0ed0c2-22c0-4401-8b3b-c417693d2561" />
+        <additions>
+          <include Id="f8db7ec0-a0ec-44d3-87aa-978d607f4a54">
+            <useCaseMoniker Id="be7eb9da-b312-47fd-8df2-ec63f42ebff2" LastKnownName="Zoek module" />
+            <elementDefinition Id="3f1ea8c9-7ca7-44cc-9497-da5d53a0b4bf" />
+          </include>
+          <include Id="58101756-745e-487f-8d95-fb1dac2d3feb">
+            <useCaseMoniker Id="daea35ab-e2c2-4350-9840-52f6fbd7a48f" LastKnownName="Inloggen" />
+            <elementDefinition Id="c5468dde-3391-4d84-8d5e-288ebd2de4fa" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="daea35ab-e2c2-4350-9840-52f6fbd7a48f" name="Inloggen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dd64992b-2f7c-4753-823f-4e2fc8c847b5" />
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="bfb66848-3665-481b-8d3d-3cf26985a326" name="zoeken" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0" />
+        <subjects>
+          <subsystemMoniker Id="f16dd802-c84e-412e-84b5-1b87e4d93a11" LastKnownName="BOB" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="b2cb0526-3e52-4d7e-a60a-c1b6bfd6f13b" name="Project_Waterfall">
+    <elementDefinition Id="5d8cbd4b-9c38-4843-814e-56cda981ad86" />
+  </package>
+</useCaseModelRoot>

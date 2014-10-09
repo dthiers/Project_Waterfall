@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="5d8cbd4b-9c38-4843-814e-56cda981ad86"
+  name="Project_Waterfall" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="1bfe13cf-8f61-47ac-b26a-67930c550f3c"
+        name="Docent"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="fac8f61a-308a-4327-a632-633951ba954e"
+            isDerived="false"
+            sourceEndRoleName="Docent"
+            targetEndRoleName="Module toevoegen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7d01a2fe-5eda-47ea-8444-c7db183e7d27"
+              LastKnownName="Module toevoegen"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13145844-34e2-428f-a25e-c29b12cea2e8"
+                  name="Docent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7270e0a3-3f95-4186-b28f-4c5570758c91"
+                  name="Module toevoegen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1255a5f5-cfaf-4051-a48e-3dbc11f2ab8b"
+            isDerived="false"
+            sourceEndRoleName="Docent"
+            targetEndRoleName="zoeken"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="80253449-702f-426f-80ed-506c6f61e7b5"
+                  name="Docent"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3aa1a13b-72ee-410d-85f8-db06ff09acfb"
+                  name="zoeken"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="44ecefab-e54b-42b7-bde6-578178f31ba9"
+        name="Student"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3e7e768c-70d2-4ff1-b8e0-b25691e7a880"
+            isDerived="false"
+            sourceEndRoleName="Student"
+            targetEndRoleName="zoeken"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="442c6dc8-69fd-4471-b7ad-d86e7668db07"
+                  name="Student"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b6db6c12-6a6a-450e-9711-d75dbd0ac2d6"
+                  name="zoeken"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7b74d7dd-2ad1-46fc-b940-558f0d3409cc"
+        name="Gast"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="dcf52852-17ec-4270-8ba4-d4ad5fb218c4"
+            isDerived="false"
+            sourceEndRoleName="Gast"
+            targetEndRoleName="zoeken"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d369771e-c09d-49cc-ba5e-9c7123cd73e6"
+                  name="Gast"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9096fd7c-9423-4351-b577-9edd8d7a8e42"
+                  name="zoeken"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+        name="BOB"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="30de5049-3d7e-43c1-98a1-400641d60641"
+        name="Informatie minor opvragen"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="1ec565ac-2236-4352-b594-9d671c8fb161"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fc52f29c-c94f-403e-a572-a881263d75ab"
+        name="Zoek module"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="de60c679-e993-4ecb-93b0-d8cbb47f4257"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9af4a632-5f5d-48d3-9ad5-d473038574d4"
+        name="Filter informatie"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="75ee22aa-dd20-4b83-ac02-73419ebdcee5">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7b22f210-353c-4420-8e0c-e200f0d5d278"
+        name="Zoek module op tag"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="5329d518-0648-4132-bcd7-5dd33327fc3f"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="47bdea00-7114-4b0a-b56b-351af6f61e55"
+        name="Zoek leerlijnen"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="010d5a1e-ee73-43ca-be16-4e0fad849a87"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="702fad18-580e-497e-8354-d68d98cf4c15"
+        name="Zoek minor"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="dd8da619-2b24-4af2-8a4f-7b80be3fb754"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b95130b0-cd74-4dab-b1c4-eca98f628b6b"
+        name="Zoek op thema"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b7c61877-9e85-4837-b4ef-a84b7f070c13">
+            <useCaseMoniker
+              Id="fc52f29c-c94f-403e-a572-a881263d75ab"
+              LastKnownName="Zoek module"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2ce3c5c7-6184-4007-a789-a15f3d89fa9d"
+        name="Zoek curriculum"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="232fc1a6-cb7e-4c16-8e41-1320b20c7ad1"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7d01a2fe-5eda-47ea-8444-c7db183e7d27"
+        name="Module toevoegen"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="3eb24d11-f6c8-480b-baab-1ad878740cbf">
+            <useCaseMoniker
+              Id="dd64992b-2f7c-4753-823f-4e2fc8c847b5"
+              LastKnownName="Inloggen"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b3516404-23a8-4202-a9f6-c7cf43bb42a2"
+        name="Modulebeschrijving bevriezen"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="a81da540-dac0-4261-a50c-44aff72e1ecb">
+            <useCaseMoniker
+              Id="dd64992b-2f7c-4753-823f-4e2fc8c847b5"
+              LastKnownName="Inloggen"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="34600229-17f4-4972-b09a-4931b5a9b5c0"
+        name="SLC'er"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="88d62f4c-cd6c-47e6-9780-a6355c9f1767"
+            isDerived="false"
+            sourceEndRoleName="SLC'er"
+            targetEndRoleName="zoeken"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a73e48a7-0395-42e0-8ff3-2f4e701798e3"
+                  name="SLC'er"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fc66bfff-0ed2-49f8-9cc3-cbefc75636f7"
+                  name="zoeken"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f69956e4-d098-4107-8f42-7555a02564d1"
+        name="WAR"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="959ce68e-a364-4c27-8e46-82c567f31d2a"
+            isDerived="false"
+            sourceEndRoleName="WAR"
+            targetEndRoleName="zoeken"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="335ba9b4-47f9-4e23-99d5-7878c44fbe5a"
+                  name="WAR"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e3a3a148-4569-418f-bf8a-89bdcf7ffb30"
+                  name="zoeken"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="db3d323b-a914-4ce9-b2f8-193b8a7759bd"
+        name="Doorstroomcoördinator"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="26293698-c597-4440-9897-cc1dc2f04030"
+            isDerived="false"
+            sourceEndRoleName="Doorstroomcoördinator"
+            targetEndRoleName="zoeken"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+              LastKnownName="zoeken"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="353508ba-f774-49c6-81c5-9eab4fac0855"
+                  name="Doorstroomcoördinator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d54a482-d833-4a9c-9fd2-227dbfcf7bba"
+                  name="zoeken"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a328659e-1cae-4358-9491-90eded3f9ab8"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="d0aa8379-7e1c-469c-b791-1368bd40171a"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c2a5923b-4448-434b-bb97-76ff4904728e"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Module aanpassen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bb0ed0c2-22c0-4401-8b3b-c417693d2561"
+              LastKnownName="Module aanpassen"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c1b4abea-544d-4180-bb25-ec96097e52db"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aa1090c2-7bc6-49d2-8fb0-3d390baa94a9"
+                  name="Module aanpassen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dd0bedfd-0d4e-4756-bb29-a5d8e396d56c"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Modulebeschrijving bevriezen"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b3516404-23a8-4202-a9f6-c7cf43bb42a2"
+              LastKnownName="Modulebeschrijving bevriezen"
+              LastKnownLocation="Project_Waterfall.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7df2ea03-2681-4244-97c5-41ec07580eee"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bb801059-fe6b-4449-85b3-609371916c1c"
+                  name="Modulebeschrijving bevriezen"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bb0ed0c2-22c0-4401-8b3b-c417693d2561"
+        name="Module aanpassen"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="3f1ea8c9-7ca7-44cc-9497-da5d53a0b4bf">
+            <useCaseMoniker
+              Id="fc52f29c-c94f-403e-a572-a881263d75ab"
+              LastKnownName="Zoek module"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </include>
+          <include
+            Id="c5468dde-3391-4d84-8d5e-288ebd2de4fa">
+            <useCaseMoniker
+              Id="dd64992b-2f7c-4753-823f-4e2fc8c847b5"
+              LastKnownName="Inloggen"
+              LastKnownLocation="Project_Waterfall.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dd64992b-2f7c-4753-823f-4e2fc8c847b5"
+        name="Inloggen"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0e9c215a-d0f4-4a4b-bc64-ca969312b4c0"
+        name="zoeken"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="8a23fc8c-15a1-46eb-bf30-963a3d581009"
+            LastKnownName="BOB"
+            LastKnownLocation="Project_Waterfall.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
