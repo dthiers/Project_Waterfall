@@ -92,7 +92,9 @@
           <comment Id="0046017d-4879-4f98-914e-ddcd4c0453b9">
             <elementDefinition Id="1199ed84-ba43-4b90-8a56-c0ce4a3f29b0" />
             <body>Wat bauw is gemarkeerd in dit diagram moet nog gemaakt worden als BUC/PUC
-Edit</body>
+Edit
+
+DIt is een feature edit...</body>
           </comment>
         </ownedCommentsInternal>
         <elementDefinition Id="8a23fc8c-15a1-46eb-bf30-963a3d581009" />
